@@ -1,0 +1,38 @@
+{
+  "scores": {
+    "performance": 100,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 100
+  },
+  "performanceMetrics": {
+    "fcpMs": 492,
+    "domContentLoadedMs": 132,
+    "loadDurationMs": 1102
+  },
+  "accessibilityDetails": {
+    "passes": 38,
+    "violationsCount": 0,
+    "violations": []
+  },
+  "bestPracticesDetails": {
+    "totalImages": 1,
+    "missingAltCount": 0,
+    "totalInputs": 0,
+    "unlabeledInputsCount": 0,
+    "hasDoctype": true,
+    "isUtf8": true
+  },
+  "seoDetails": {
+    "title": "Praveenkumar P | Software Developer: Full-Stack, AI and Cloud",
+    "titleLength": 61,
+    "description": "Praveenkumar P - Information Technology undergraduate (2027) building full-stack, AI, and cloud software. Ex-CRM Intern at Zoho Healthcare; creator of SkillBridge.",
+    "descriptionLength": 163,
+    "hasViewport": true,
+    "hasOgTitle": true,
+    "hasOgDesc": true,
+    "hasOgImage": true,
+    "isJsonLdValid": true
+  },
+  "consoleErrors": []
+}

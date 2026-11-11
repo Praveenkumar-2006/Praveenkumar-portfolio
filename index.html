@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('theme');
+          var theme = saved;
+          if (!theme) {
+            var mql = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)');
+            theme = (mql && mql.matches) ? 'light' : 'dark';
+          }
+          document.documentElement.dataset.theme = theme;
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {
+          document.documentElement.dataset.theme = 'dark';
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praveenkumar P | Software Developer: Full-Stack, AI and Cloud</title>
+    <meta
+      name="description"
+      content="Praveenkumar P - Information Technology undergraduate (2027) building full-stack, AI, and cloud software. Ex-CRM Intern at Zoho Healthcare; creator of SkillBridge."
+    />
+    <meta name="keywords" content="Praveenkumar P, Software Developer, Full-Stack, Zoho CRM, Deluge, CloudShield IQ, SkillBridge, LYF-Sync, FastAPI, React" />
+    <meta name="author" content="Praveenkumar P" />
+    <meta name="theme-color" content="#171C28" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+    <!-- Open Graph Protocol -->
+    <meta property="og:title" content="Praveenkumar P | Software Developer: Full-Stack, AI and Cloud" />
+    <meta
+      property="og:description"
+      content="Praveenkumar P - Information Technology undergraduate (2027) building full-stack, AI, and cloud software. Ex-CRM Intern at Zoho Healthcare; creator of SkillBridge."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://praveenkumar-2006.github.io/Praveenkumar-portfolio/" />
+    <meta property="og:image" content="assets/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Praveenkumar P | Software Developer: Full-Stack, AI and Cloud" />
+    <meta
+      name="twitter:description"
+      content="Praveenkumar P - Information Technology undergraduate (2027) building full-stack, AI, and cloud software. Ex-CRM Intern at Zoho Healthcare; creator of SkillBridge."
+    />
+    <meta name="twitter:image" content="assets/og-image.png" />
+
+    <!-- JSON-LD Verified Person Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Praveenkumar P",
+        "url": "https://praveenkumar-2006.github.io/Praveenkumar-portfolio/",
+        "sameAs": [
+          "https://github.com/Praveenkumar-2006",
+          "https://www.linkedin.com/in/praveenkumar-p-b9a240422/"
+        ],
+        "jobTitle": "Software Developer",
+        "alumniOf": {
+          "@type": "EducationalOrganization",
+          "name": "Rajalakshmi Engineering College"
+        },
+        "knowsAbout": [
+          "Full-Stack Development",
+          "Zoho CRM",
+          "Deluge",
+          "FastAPI",
+          "Python",
+          "React",
+          "Cloud Security",
+          "Machine Learning"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

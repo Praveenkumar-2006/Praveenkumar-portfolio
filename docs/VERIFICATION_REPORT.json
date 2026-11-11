@@ -1,0 +1,71 @@
+{
+  "viewports": [
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "hasHorizontalOverflow": false,
+      "screenshot": "C:\\Users\\Admin\\Desktop\\portfolio\\docs\\verification-screenshots\\home-mobile-light.png"
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "hasHorizontalOverflow": false,
+      "screenshot": "C:\\Users\\Admin\\Desktop\\portfolio\\docs\\verification-screenshots\\home-tablet-light.png"
+    },
+    {
+      "viewport": "desktop",
+      "width": 1280,
+      "hasHorizontalOverflow": false,
+      "screenshot": "C:\\Users\\Admin\\Desktop\\portfolio\\docs\\verification-screenshots\\home-desktop-light.png"
+    }
+  ],
+  "themes": [
+    {
+      "theme": "dark",
+      "success": true,
+      "screenshot": "C:\\Users\\Admin\\Desktop\\portfolio\\docs\\verification-screenshots\\home-desktop-dark.png"
+    }
+  ],
+  "reducedMotion": {
+    "supported": true
+  },
+  "keyboardNavigation": {
+    "isSkipLinkFocused": true
+  },
+  "headingHierarchy": {
+    "h1Count": 1,
+    "isValidSingleH1": true,
+    "totalHeadings": 18
+  },
+  "zoomCheck": {
+    "hasZoomOverflow": false
+  },
+  "horizontalScrollCheck": {},
+  "routesTested": [
+    {
+      "route": "#/work/skillbridge",
+      "title": "SkillBridge Case Study | Praveenkumar P",
+      "matchesExpectedTitle": true,
+      "h1": "SkillBridge",
+      "hasSvgDiagram": true,
+      "screenshot": "C:\\Users\\Admin\\Desktop\\portfolio\\docs\\verification-screenshots\\route-skillbridge.png"
+    },
+    {
+      "route": "#/work/lyf-sync",
+      "title": "LYF-Sync Case Study | Praveenkumar P",
+      "matchesExpectedTitle": true,
+      "h1": "LYF-Sync",
+      "hasSvgDiagram": true,
+      "screenshot": "C:\\Users\\Admin\\Desktop\\portfolio\\docs\\verification-screenshots\\route-lyf-sync.png"
+    },
+    {
+      "route": "#/work/cloudshield-iq",
+      "title": "CloudShield IQ Case Study | Praveenkumar P",
+      "matchesExpectedTitle": true,
+      "h1": "CloudShield IQ",
+      "hasSvgDiagram": true,
+      "screenshot": "C:\\Users\\Admin\\Desktop\\portfolio\\docs\\verification-screenshots\\route-cloudshield-iq.png"
+    }
+  ],
+  "pageWeight": {}
+}

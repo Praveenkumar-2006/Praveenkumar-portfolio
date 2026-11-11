@@ -1,0 +1,75 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: var(--line-height-heading);
+  color: var(--color-ink);
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: var(--text-h1);
+}
+
+h2 {
+  font-size: var(--text-h2);
+}
+
+h3 {
+  font-size: var(--text-h3);
+}
+
+p {
+  margin-bottom: var(--space-4);
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+code, kbd, samp, pre {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+.mono-meta {
+  font-family: var(--font-mono);
+  font-size: var(--text-meta);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-ink-muted);
+}
+
+.mono-caption {
+  font-family: var(--font-mono);
+  font-size: var(--text-caption);
+  color: var(--color-ink-muted);
+}
+
+.lead-text {
+  font-size: var(--text-body-lead);
+  line-height: 1.5;
+}
+
+/* Subtle entry reveal of name ONLY */
+@keyframes nameReveal {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.name-reveal {
+  animation: nameReveal 0.4s ease-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .name-reveal {
+    animation: none;
+    opacity: 1;
+  }
+}
+

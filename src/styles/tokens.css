@@ -1,0 +1,98 @@
+:root {
+  /* Default Design Tokens (Dark Theme) */
+  --ground: #171C28;
+  --text: #AFAFBF;
+  --strong: #E7E7E7;
+  --rule: #2B3245;
+  --accent: #7F93FF;
+  --accent-ink: #171C28;
+  --surface: #1E2333;
+  --hero-bg: #2440D8;
+  --hero-text: #FFFFFF;
+  --code-bg: #131722;
+  --code-border: #2B3245;
+
+  /* Backward-compatible aliases */
+  --color-ground: var(--ground);
+  --color-surface: var(--surface);
+  --color-ink: var(--strong);
+  --color-ink-muted: var(--text);
+  --color-rule: var(--rule);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-hero-bg: var(--hero-bg);
+  --color-hero-text: var(--hero-text);
+  --color-code-bg: var(--code-bg);
+  --color-code-border: var(--code-border);
+
+  /* Typography Stacks */
+  --font-display: "Archivo Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-body: "Newsreader", Georgia, Cambria, "Times New Roman", serif;
+  --font-mono: "IBM Plex Mono", SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+
+  /* Type Scale */
+  --text-hero: clamp(2.5rem, 5.5vw + 1rem, 4.25rem);
+  --text-h1: clamp(2rem, 3.5vw + 0.5rem, 2.75rem);
+  --text-h2: clamp(1.4rem, 2vw + 0.2rem, 1.85rem);
+  --text-h3: 1.25rem;
+  --text-body: 1.125rem; /* 18px */
+  --text-body-lead: 1.25rem;
+  --text-caption: 0.875rem; /* 14px */
+  --text-meta: 0.8125rem; /* 13px */
+
+  --line-height-heading: 1.15;
+  --line-height-body: 1.62;
+
+  /* Spacing Scale (4, 8, 12, 16, 24, 32, 48, 72, 112) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 72px;
+  --space-9: 112px;
+
+  /* Layout Boundaries */
+  --max-content-width: 72rem;
+  --rail-width: 8rem;
+
+  /* Strict Radii: 0 everywhere */
+  --radius-none: 0px;
+  --radius-form: 0px;
+
+  color-scheme: dark;
+}
+
+/* Light Theme Tokens */
+[data-theme="light"] {
+  --ground: #ECEEF1;
+  --text: #4F5663;
+  --strong: #171A21;
+  --rule: #B9BFC9;
+  --accent: #2440D8;
+  --accent-ink: #FFFFFF;
+  --surface: #FFFFFF;
+  --hero-bg: #2440D8;
+  --hero-text: #FFFFFF;
+  --code-bg: #E2E5E9;
+  --code-border: #B9BFC9;
+  color-scheme: light;
+}
+
+/* Dark Theme Tokens */
+[data-theme="dark"] {
+  --ground: #171C28;
+  --text: #AFAFBF;
+  --strong: #E7E7E7;
+  --rule: #2B3245;
+  --accent: #7F93FF;
+  --accent-ink: #171C28;
+  --surface: #1E2333;
+  --hero-bg: #2440D8;
+  --hero-text: #FFFFFF;
+  --code-bg: #131722;
+  --code-border: #2B3245;
+  color-scheme: dark;
+}
